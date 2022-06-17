@@ -42,23 +42,23 @@ Deployed Application (optional): [Flixster Deployed Site](ADD_LINK_HERE)
 
 ### Walkthrough Video
 
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video or gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+![walkthrough](https://github.com/laurenkiyomi/flixster_starter/blob/main/ezgif.com-gif-maker.gif)
 
 ### Reflection
 
 * Did the topics discussed in your labs prepare you to complete the assignment? Be specific, which features in your weekly assignment did you feel unprepared to complete?
 
+Yes, I think the Youtube videos linked in the labs helped me understand the basics so that I could complete the assignment, and doing the assignment helped me get more into the details and understand how to implement different functions. I felt unprepared to implement some of the stretch features but was able to figure them out by asking the people around me and searching up videos. 
+
 Add your response here
 
 * If you had more time, what would you have done differently? Would you have added additional features? Changed the way your project responded to a particular event, etc.
-  
-Add your response here
+
+If I had more time, I would have spent more time on the design of my webpage and making it more unique, but I felt a little bit rushed, so I didn't want to spend too much time on the design aspect. I would have also implemented/fetched videos into my webpage if I had more time. I looked up videos and understand how to do so, but there was a bug when I was implementing this feature, so I skipped it. Although I may go back to it this weekend and get it working.
 
 * Reflect on your project demo, what went well? Were there things that maybe didn't go as planned? Did you notice something that your peer did that you would like to try next time?
 
-Add your response here
+I enjoyed doing the project. It was nice to be able to culminate everything we learned this week into one. Implementing even small features took me a little longer than I expected, but I hope to become more efficient as time goes on and have more practice with HTML/CSS/Javascript. I'd like to talk to my peer more about how they format their code and how they go about implementing/formatting various features to see how my code compares and if there are quicker ways to implement certain features.
 
 ### Open-source libraries used
 
@@ -67,3 +67,5 @@ Add your response here
 ### Shout out
 
 Give a shout out to somebody from your cohort that especially helped you during your project. This can be a fellow peer, instructor, TA, mentor, etc.
+
+Rodrigo, Phineas
