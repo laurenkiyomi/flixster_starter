@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flixster</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;400&family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>FLIXSTER</h1>
+
+    <div class="search-container">   
+        <form id="form">
+            <input type="text" id="input" name="input" placeholder="Enter keyword(s)">
+            <button type="submit" id="search-button">Search</button> 
+        </form>   
+    </div>      
+
+    <div id="movie-grid"></div>
+
+    <div id="container">
+        <button class="hidden" id="morebutton">"Load More"</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
