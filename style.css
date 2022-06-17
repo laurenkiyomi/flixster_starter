@@ -61,7 +61,7 @@ form button {
     background-color: #221F1F;
     grid-column-gap: 10px;
     grid-row-gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 15%));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 15%));
     justify-content: space-around;
    
 }
