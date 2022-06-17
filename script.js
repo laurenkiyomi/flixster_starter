@@ -34,8 +34,18 @@
     val = input.value
     getResults(val)
     showMore()
-    form.reset()
+ })
 
+ reset.addEventListener('click', (event) => {
+    form.reset()
+    trending = true;
+    movieGrid.innerHTML = ``;
+    pages = 1
+    fetch(`https://api.themoviedb.org/3/movie/popular?api_key=7c472c0bc17cd2978d3aaa6fa8ea2dbf&language=en-US&page=${pages}`).then(r=>r.json()).then(res=>res.results).then(data => {
+        pages = 1
+        populateGrid(data)
+        showMore()
+    })
  })
 
  morebutton.addEventListener('click', (event) => {
@@ -112,6 +122,7 @@ async function getResults(val) {
             let modal = movieBox.children[2]
             let moviePoster = movieBox.children[0]
             let close = modal.children[0].children[0]
+            let watchButton = modal.children[0].children[5].children[0]
 
             moviePoster.onclick = function () {
                 modal.style.display = "block"

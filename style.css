@@ -47,9 +47,19 @@ form input {
     padding: 10px
 }
 
-form button {
+form #search-button {
     background-color: #E50914;
     padding: 10px 50px;
+    color: #F5F5F1;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#reset {
+    background-color: #E50914;
+    margin-left: 5px;
+    height: 40px;
+    padding: 10px 10px;
     color: #F5F5F1;
     letter-spacing: 1px;
     cursor: pointer;
@@ -128,7 +138,6 @@ h3 {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 10px;
-    padding-right: 10px;
 }
 
 #release-date {
